@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "title": "Medical Insurance Charge Estimator",
+      "tagline": "Regression",
+      "description": "Predicts annual medical insurance charges from patient attributes. RandomForest with a log-transformed target, tuned via RandomizedSearchCV.",
+      "tags": ["scikit-learn", "FastAPI", "regression"],
+      "status": "live",
+      "url": "https://insurance-charge-estimator.onrender.com",
+      "repo": "https://github.com/YOUR-USERNAME/insurance-charge-estimator",
+      "metric": "Test RMSE $4,361"
+    },
+    {
+      "title": "Used Car Price Prediction",
+      "tagline": "Regression",
+      "description": "High-cardinality categorical encoding (brand/model) and log-skewed price target on real listings data.",
+      "tags": ["scikit-learn", "feature engineering"],
+      "status": "planned",
+      "url": null,
+      "repo": null,
+      "metric": null
+    },
+    {
+      "title": "Bike Sharing Demand",
+      "tagline": "Regression / Time Series",
+      "description": "Datetime feature engineering — hour, season, weekday extraction — to predict hourly rental demand.",
+      "tags": ["scikit-learn", "datetime features"],
+      "status": "planned",
+      "url": null,
+      "repo": null,
+      "metric": null
+    },
+    {
+      "title": "Life Expectancy (WHO)",
+      "tagline": "Regression",
+      "description": "Real-world missingness (10-20% in several columns) and multicollinear health indicators across countries.",
+      "tags": ["scikit-learn", "imputation"],
+      "status": "planned",
+      "url": null,
+      "repo": null,
+      "metric": null
+    },
+    {
+      "title": "Laptop Price Prediction",
+      "tagline": "Regression",
+      "description": "Messy raw text fields (RAM as \"8GB\", resolution as \"1920x1080\") that need parsing before they're usable features.",
+      "tags": ["scikit-learn", "data cleaning"],
+      "status": "planned",
+      "url": null,
+      "repo": null,
+      "metric": null
+    }
+  ]
+}
