@@ -4,7 +4,9 @@ A single page listing every ML project in this portfolio, rendered from
 `data/projects.json`. Add a new project by editing that file — no HTML
 changes needed.
 
-**Live:** _add your deployed URL here after deploying_
+**Live demo:** [ML Projects Catalog](https://ml-projects-catalog.onrender.com)
+
+![ML Projects Catalog](./docs/cover/cover.png)
 
 ## Run locally
 
