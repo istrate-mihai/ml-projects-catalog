@@ -6,8 +6,8 @@
       "description": "Predicts annual medical insurance charges from patient attributes. RandomForest with a log-transformed target, tuned via RandomizedSearchCV.",
       "tags": ["scikit-learn", "FastAPI", "regression"],
       "status": "live",
-      "url": "https://insurance-charge-estimator.onrender.com",
-      "repo": "https://github.com/YOUR-USERNAME/insurance-charge-estimator",
+      "url": "https://insurance-charge-estimator-kgum.onrender.com",
+      "repo": "https://github.com/istrate-mihai/insurance-charge-estimator/",
       "metric": "Test RMSE $4,361"
     },
     {
