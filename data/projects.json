@@ -3,16 +3,18 @@
     {
       "title": "Medical Insurance Charge Estimator",
       "tagline": "Regression",
+      "image": "/static/images/insurance-estimator.png",
       "description": "Predicts annual medical insurance charges from patient attributes. RandomForest with a log-transformed target, tuned via RandomizedSearchCV.",
       "tags": ["scikit-learn", "FastAPI", "regression"],
       "status": "live",
       "url": "https://insurance-charge-estimator-kgum.onrender.com",
-      "repo": "https://github.com/istrate-mihai/insurance-charge-estimator/",
+      "repo": "https://github.com/istrate-mihai/insurance-charge-estimator",
       "metric": "Test RMSE $4,361"
     },
     {
       "title": "Used Car Price Prediction",
       "tagline": "Regression",
+      "image": "/static/images/placeholder-car.svg",
       "description": "High-cardinality categorical encoding (brand/model) and log-skewed price target on real listings data.",
       "tags": ["scikit-learn", "feature engineering"],
       "status": "planned",
@@ -23,6 +25,7 @@
     {
       "title": "Bike Sharing Demand",
       "tagline": "Regression / Time Series",
+      "image": "/static/images/placeholder-bike.svg",
       "description": "Datetime feature engineering — hour, season, weekday extraction — to predict hourly rental demand.",
       "tags": ["scikit-learn", "datetime features"],
       "status": "planned",
@@ -33,6 +36,7 @@
     {
       "title": "Life Expectancy (WHO)",
       "tagline": "Regression",
+      "image": "/static/images/placeholder-chart.svg",
       "description": "Real-world missingness (10-20% in several columns) and multicollinear health indicators across countries.",
       "tags": ["scikit-learn", "imputation"],
       "status": "planned",
@@ -43,6 +47,7 @@
     {
       "title": "Laptop Price Prediction",
       "tagline": "Regression",
+      "image": "/static/images/placeholder-laptop.svg",
       "description": "Messy raw text fields (RAM as \"8GB\", resolution as \"1920x1080\") that need parsing before they're usable features.",
       "tags": ["scikit-learn", "data cleaning"],
       "status": "planned",

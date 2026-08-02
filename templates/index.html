@@ -98,7 +98,31 @@
     display: flex;
     flex-direction: column;
     transition: border-color 0.15s ease, transform 0.15s ease;
+    overflow: hidden;
   }
+
+  .card-image {
+    margin: -1.4rem -1.4rem 1rem;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-bottom: 1px solid var(--blue-line);
+    background: var(--blue-deep);
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    transition: transform 0.2s ease;
+  }
+
+  .card.live:hover .card-image img { transform: scale(1.03); }
+
+  .card.planned .card-image img { opacity: 0.7; }
 
   .card::before, .card::after {
     content: "";
@@ -106,6 +130,7 @@
     width: 10px; height: 10px;
     border: 1px solid var(--cyan-dim);
     opacity: 0.6;
+    z-index: 2;
   }
   .card::before { top: -1px; left: -1px; border-right: none; border-bottom: none; }
   .card::after { bottom: -1px; right: -1px; border-left: none; border-top: none; }
@@ -231,6 +256,9 @@
     <div class="grid">
       {% for p in projects %}
       <div class="card {{ p.status }}">
+        {% if p.image %}
+        <div class="card-image"><img src="{{ p.image }}" alt="{{ p.title }} screenshot" loading="lazy"></div>
+        {% endif %}
         <div class="card-top">
           <span class="tagline">{{ p.tagline }}</span>
           <span class="status {{ p.status }}">{{ p.status }}</span>

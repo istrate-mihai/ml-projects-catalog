@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="225" fill="#0f2c4a"/>
+<g fill="none" stroke="#4a95a8" stroke-width="1" opacity="0.25">
+<line x1="0" y1="37.5" x2="400" y2="37.5"/><line x1="0" y1="75" x2="400" y2="75"/>
+<line x1="0" y1="112.5" x2="400" y2="112.5"/><line x1="0" y1="150" x2="400" y2="150"/>
+<line x1="0" y1="187.5" x2="400" y2="187.5"/>
+<line x1="50" y1="0" x2="50" y2="225"/><line x1="100" y1="0" x2="100" y2="225"/>
+<line x1="150" y1="0" x2="150" y2="225"/><line x1="200" y1="0" x2="200" y2="225"/>
+<line x1="250" y1="0" x2="250" y2="225"/><line x1="300" y1="0" x2="300" y2="225"/>
+<line x1="350" y1="0" x2="350" y2="225"/>
+</g>
+<g fill="none" stroke="#6fd6e8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M85 170 L85 60 M85 170 L320 170"/>
+<path d="M85 150 Q140 155 175 120 Q210 90 250 100 Q290 108 320 70" stroke-dasharray="0"/>
+<circle cx="175" cy="120" r="4" fill="#6fd6e8"/>
+<circle cx="250" cy="100" r="4" fill="#6fd6e8"/>
+<circle cx="320" cy="70" r="4" fill="#6fd6e8"/>
+</g>
+</svg>
