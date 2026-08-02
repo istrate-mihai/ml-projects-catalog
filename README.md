@@ -6,7 +6,7 @@ changes needed.
 
 **Live demo:** [ML Projects Catalog](https://ml-projects-catalog.onrender.com)
 
-![ML Projects Catalog](./docs/cover/cover.png)
+**Cover:** ![ML Projects Catalog](./docs/cover/cover.png)
 
 ## Run locally
 
